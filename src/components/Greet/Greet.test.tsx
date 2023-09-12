@@ -20,7 +20,7 @@ describe('Greet', () => {
 describe('Greet Test 2', () => {
   test('renders a paragraph test named boy', () => {
     render(<Greet />);
-    const textElement = screen.getByText(/boy/i);
+    const textElement = screen.getByText(/Boy/i);
     expect(textElement).toBeInTheDocument();
   });
 });
